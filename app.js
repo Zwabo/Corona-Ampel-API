@@ -10,6 +10,7 @@ const app = express();
 app.get('/status/:plz', (req, res) => {
 
   let plz = req.params.plz;
+  let test = "t";
 
   let gemData = JSON.parse(fs.readFileSync('gemeinden.json'));
   let gemeinden = gemData.data.find(gemeinde => gemeinde.plz === plz);
