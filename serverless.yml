@@ -1,0 +1,7 @@
+org: winklersoft
+app: corona-ampel
+component: express
+name: express-starter
+
+inputs:
+  src: ./
